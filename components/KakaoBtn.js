@@ -4,7 +4,7 @@ import Head from "next/head";
 
 const KakaoBtn = () => {
   useEffect(() => {
-    window.Kakao.init("f0180cb7e7e83af588b59f4aab1a8c3b");
+    window.Kakao.init("");
 
     window.Kakao.Link.createDefaultButton({
       container: "#kakao-link-btn",
